@@ -20,25 +20,22 @@ According to the [United States Conference of Catholic Bishops](http://www.usccb
 
 The [Creighton Model](http://www.creightonmodel.com) is one of several NFP methods which uses the observation of biomarkers (cervical mucus) to identify the natural times of fertility and infertility. Other popular methods include [the Billings Model](http://www.woomb.org/), [the Sympto-Thermal Method](https://sympto.org/data/manual_en_sympto.pdf), and [the Marquette Model](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.marquette.edu/nursing/institute-natural-family-planning/model.php&ved=2ahUKEwicldq49LeMAxX7OjQIHZJPHyYQFnoECBUQAQ&usg=AOvVaw3K0vL5LtMjgsWN_18DftTG/), with information about other methods [here](http://www.usccb.org/issues-and-action/marriage-and-family/natural-family-planning/what-is-nfp/methods.cfm) and [here](http://verilymag.com/2016/12/how-to-chart-your-cycle-creighton-billings-two-day-sympto-thermal-marquette-lactational). The [Creighton Model](http://www.unleashingthepower.info/PDFs/IA_IntroCrMS.pdf) was developed by Dr. Thomas Hilgers at Creighton University in the 1970's and 1980's and is one of the most popular NFP methods. It has been widely studied, and has also led to the development of NaProTechnology (natural procreative technology), a method of medical treatments for women that preserves fertility.
 
-Charting is a convenient way of visually tracking the woman's cycle. Creighton Method instruction typically includes instruction in using a paper chart (examples of which are available [here](http://www.creightonmodel.com/background.htm)). Unfortunately, there does not appear to be an app or other form of electronic charting offered by any organization officially affiliated with Creighton. Electronic charting in some form would greatly improve convenience and data integrity.
+Charting is a convenient way of visually tracking the woman's cycle. Creighton Method instruction typically includes instruction in using a paper chart. Unfortunately, there does not appear to be an app or other form of electronic charting offered by any organization officially affiliated with Creighton. Electronic charting in some form would greatly improve convenience and data integrity.
 
 ### Survey of Electronic Charting Options
 There are a variety of electronic (app, online, spreadsheet) charting options available offering various combinations of features and degrees of compatibility with the Creighton model. Below are links to some of the options I found online:
 
 #### Charting Apps
-* [NFP Charting (free)](https://itunes.apple.com/us/app/nfp-charting/id300767738?mt=8)
-* [Kindara (free)](https://www.kindara.com/)
-* [OvuView (free)](https://play.google.com/store/apps/details?id=com.sleekbit.ovuview&hl=en)
-* [Ovia Fertility Tracker (free)](https://itunes.apple.com/us/app/ovia-fertility-tracker-ovulation-calculator/id570244389?mt=8)
-* [Lily (free)](http://whimsicallily.com/lily/appstore.php)
-* [Fertility Friend (free)](https://itunes.apple.com/app/apple-store/id443919067?mt=8)
+* [NFP Charting (free trial)](https://itunes.apple.com/us/app/nfp-charting/id300767738?mt=8)
+* [Kindara (free trial)](https://www.kindara.com/)
+* [OvuView (free trial)](https://play.google.com/store/apps/details?id=com.sleekbit.ovuview&hl=en)
+* [Ovia Fertility Tracker (free trial?)](https://itunes.apple.com/us/app/ovia-fertility-tracker-ovulation-calculator/id570244389?mt=8)
+* [Lily (free trial?)](http://whimsicallily.com/lily/appstore.php)
+* [Fertility Friend (free trial?)](https://itunes.apple.com/app/apple-store/id443919067?mt=8)
 
 #### Online Charting
-* [Northwest Family Services ($12)](http://www.nwfs.org/natural-family-planning/online-charting)
 * [My Fertility Charts ($2.50/mo)](http://www.myfertilitycharts.com/)
-
-#### Homemade Electronic Charts
-* [Creighton Model of Natural Family Planning Digital Chart (Google Sheets)](http://nfpandme.blogspot.com/2012/03/good-bye-paper-charts.html)
+* [NFP Charting.com ($2.99/mo)](https://www.nfpcharting.com/index.php)
 
 ## Creighton-Model-Chart
 Finding nothing that meets our needs above, and wanting to make something simple in Python, I generated these scripts. This provides a simple way of visualizing biomarker observations.
