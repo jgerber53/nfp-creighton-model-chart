@@ -3,7 +3,7 @@
 
 # Run combineCharts.py to combine multiple single cycle charts into a full chart 
 # (the group of 6 cycles you are used to seeing on paper charts). 
-# Move or copy charts you wish to include to the "to_combine/" directory.
+# Move or copy charts you wish to include to the "combine/" directory.
 
 import numpy as np
 from pathlib import Path
@@ -11,7 +11,7 @@ from PIL import Image
 
 # Define paths
 charts_path = Path("/Users/gerb5/vscode-projects/nfp-creighton-model-chart/charts/")
-combine_path = charts_path / "to_combine"
+combine_path = charts_path / "combine"
 cropped_path = charts_path / "cropped"
 complete_path = charts_path / "complete"
 
@@ -24,7 +24,7 @@ list_images = list(combine_path.glob("*.png"))
 
 # Check if images exist
 if not list_images:
-    print("No images found in the to_combine/ directory. Please add images and retry.")
+    print("No images found in the combine/ directory. Please add images and retry.")
     exit()
 
 # Load images
@@ -82,7 +82,7 @@ def clear_directory(directory: Path):
 
 # Remove all files from temp directories after processing
 # Comment out the next two lines for troubleshooting
-#clear_directory(combine_path)
+clear_directory(combine_path)
 clear_directory(cropped_path)
 
 print("Done.")
