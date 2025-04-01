@@ -10,7 +10,7 @@ from pathlib import Path
 from PIL import Image
 
 # Define paths
-charts_path = Path("/Users/gerb5/vscode-projects/nfp-creighton-model-chart/Charts/")
+charts_path = Path("/Users/gerb5/vscode-projects/nfp-creighton-model-chart/charts/")
 combine_path = charts_path / "to_combine"
 cropped_path = charts_path / "cropped"
 complete_path = charts_path / "complete"
@@ -82,7 +82,7 @@ def clear_directory(directory: Path):
 
 # Remove all files from temp directories after processing
 # Comment out the next two lines for troubleshooting
-clear_directory(combine_path)
+#clear_directory(combine_path)
 clear_directory(cropped_path)
 
 print("Done.")
