@@ -41,25 +41,25 @@ There are a variety of electronic (app, online, spreadsheet) charting options av
 Finding nothing that meets our needs above, and wanting to make something simple in Python, I generated these scripts. This provides a simple way of visualizing biomarker observations.
 
 ### Stickers
-<img src="https://github.com/mkudija/Creighton-Model-Chart/blob/master/Stickers/g.png" width="50"/> <img src="https://github.com/mkudija/Creighton-Model-Chart/blob/master/Stickers/r.png" width="50"/> <img src="https://github.com/mkudija/Creighton-Model-Chart/blob/master/Stickers/y.png" width="50"/> <img src="https://github.com/mkudija/Creighton-Model-Chart/blob/master/Stickers/gb.png" width="50"/> <img src="https://github.com/mkudija/Creighton-Model-Chart/blob/master/Stickers/gb1.png" width="50"/> <img src="https://github.com/mkudija/Creighton-Model-Chart/blob/master/Stickers/gb2.png" width="50"/> <img src="https://github.com/mkudija/Creighton-Model-Chart/blob/master/Stickers/gb3.png" width="50"/> <img src="https://github.com/mkudija/Creighton-Model-Chart/blob/master/Stickers/wb.png" width="50"/> <img src="https://github.com/mkudija/Creighton-Model-Chart/blob/master/Stickers/wbp.png" width="50"/>
+<img src="https://github.com/jgerber53/nfp-creighton-model-chart/blob/main/stickers/g.png" width="50"/> <img src="https://github.com/jgerber53/nfp-creighton-model-chart/blob/main/stickers/r.png" width="50"/> <img src="https://github.com/jgerber53/nfp-creighton-model-chart/blob/main/stickers/y.png" width="50"/> <img src="https://github.com/jgerber53/nfp-creighton-model-chart/blob/main/stickers/gb.png" width="50"/> <img src="https://github.com/jgerber53/nfp-creighton-model-chart/blob/main/stickers/gb1.png" width="50"/> <img src="https://github.com/jgerber53/nfp-creighton-model-chart/blob/main/stickers/gb2.png" width="50"/> <img src="https://github.com/jgerber53/nfp-creighton-model-chart/blob/main/stickers/gb3.png" width="50"/> <img src="https://github.com/jgerber53/nfp-creighton-model-chart/blob/main/stickers/wb.png" width="50"/> <img src="https://github.com/jgerber53/nfp-creighton-model-chart/blob/main/stickers/wbp.png" width="50"/>
 
-Images to form the "stickers" are located in [`/Stickers`](https://github.com/mkudija/Creighton-Model-Chart/tree/master/Stickers). Stickers with the baby illustration are derived from the "dancing baby" by [Jeff Geerling](https://www.jeffgeerling.com/blog/2010/dancing-baby-illustration). 
+Images to form the "stickers" are located in [`/stickers`](https://github.com/jgerber53/nfp-creighton-model-chart/tree/main/stickers). Stickers with the baby illustration are derived from the "dancing baby" by [Jeff Geerling](https://www.jeffgeerling.com/blog/2010/dancing-baby-illustration). 
 
 ### Usage
 
 #### Installation
-Clone this repo using [`https://github.com/mkudija/Creighton-Model-Chart.git`](https://github.com/mkudija/Creighton-Model-Chart.git).
+Clone this repo using [`https://github.com/jgerber53/nfp-creighton-model-chart.git`](https://github.com/jgerber53/nfp-creighton-model-chart.git).
 
 #### Requirements
 
-- python 3.5.2
-- matplotlib 1.5.1
-- pandas 0.18.1
-- PIL
-
+matplotlib == 3.10.1
+pandas == 2.2.3
+pillow == 11.1.0
+numpy == 2.2.4
+openpyxl == 3.1.2
 
 #### Generate Data
-User inputs are gathered via Excel files in [`Data/`](https://github.com/mkudija/Creighton-Model-Chart/tree/master/Data). 
+User inputs are gathered via Excel files in [`data/`](https://github.com/jgerber53/nfp-creighton-model-chart/tree/main/data). 
 
 | Date          | Discharge     | Sticker  | Intercourse  | 
 | ------------- |:-------------:| -------- | ------------ |
