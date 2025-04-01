@@ -88,7 +88,11 @@ Update `file_path` as needed to the location of your data.
 
 Update `file_name` for the date of the start of the cycle you want to plot. 
 
-Update `output_path` to specify the location for your charts.
+Update `charts_path` to specify the location for your charts.
 
 #### Merge Charts
-Run [`combineCharts.py`](https://github.com/mkudija/Creighton-Model-Chart/blob/master/(2)combineCharts.ipynb) to combine multiple single cycle charts into a full chart (the group of 6 cycles you are used to seeing on paper charts). Again, change paths as required to match your directory of individual charts, and update `list_im` with the individual charts you wish to include.  
+Run [`combineCharts.py`](https://github.com/jgerber53/nfp-creighton-model-chart/blob/main/combineCharts.py) to combine multiple single cycle charts into a full chart (the group of 6 cycles you are used to seeing on paper charts). 
+
+Update `charts_path` to specify the location for your charts.
+
+Copy charts you want to combine from the `charts_path` to the `to_combine` subfolder of your charts directory.
