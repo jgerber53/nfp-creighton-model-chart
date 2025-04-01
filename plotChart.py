@@ -8,8 +8,9 @@ import pandas as pd
 import numpy as np
 from PIL import Image  # Use Pillow for image handling
 
-file_name = 'example_month_2'  # Example date, replace with the dates you want to process
+file_name = 'example_month_1'  # Example date, replace with the name of the files you want to process
 file_path = os.path.join('/Users/gerb5/vscode-projects/nfp-creighton-model-chart/data', f'{file_name}.xlsx')
+output_path = os.path.join('/Users/gerb5/vscode-projects/nfp-creighton-model-chart/charts', f'{file_name}.png')
 
 # Load the Excel file into a DataFrame
 try:
@@ -102,7 +103,6 @@ def plot_chart(df, file_name):
         plot_image(row + 0.5, 2.85, sticker_path, 0.125)
 
     # Save & show plot
-    output_path = os.path.join('/Users/gerb5/vscode-projects/nfp-creighton-model-chart/charts', f'{file_name}.png')
     plt.savefig(output_path, dpi=150, bbox_inches='tight')
     print('Chart saved successfully.')
 
