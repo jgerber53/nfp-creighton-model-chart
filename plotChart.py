@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 from PIL import Image  # Use Pillow for image handling
 
-file_name = 'example_month_1'  # Example date, replace with the dates you want to process
+file_name = 'example_month_2'  # Example date, replace with the dates you want to process
 file_path = os.path.join('/Users/gerb5/vscode-projects/nfp-creighton-model-chart/data', f'{file_name}.xlsx')
 
 # Load the Excel file into a DataFrame
