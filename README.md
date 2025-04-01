@@ -51,12 +51,13 @@ Images to form the "stickers" are located in [`/stickers`](https://github.com/jg
 Clone this repo using [`https://github.com/jgerber53/nfp-creighton-model-chart.git`](https://github.com/jgerber53/nfp-creighton-model-chart.git).
 
 #### Requirements
+This very well may run on other versions.  The below versions are what is verified.
 
-matplotlib == 3.10.1
-pandas == 2.2.3
-pillow == 11.1.0
-numpy == 2.2.4
-openpyxl == 3.1.2
+- matplotlib == 3.10.1
+- pandas == 2.2.3
+- pillow == 11.1.0
+- numpy == 2.2.4
+- openpyxl == 3.1.2
 
 #### Generate Data
 User inputs are gathered via Excel files in [`data/`](https://github.com/jgerber53/nfp-creighton-model-chart/tree/main/data). 
@@ -81,7 +82,13 @@ User inputs are gathered via Excel files in [`data/`](https://github.com/jgerber
 
 
 #### Create Single Chart
-Run [`(1)plotChart.ipynb`](https://github.com/mkudija/Creighton-Model-Chart/blob/master/(1)plotChart.ipynb) to generate the chart for a single cycle. Note that the filepaths reference local directories to protect privacy. Change filepaths as needed to the location of your data and desired output for charts. Update `name` for the date of the start of the cycle you want to plot. 
+Run [`plotChart.py`](https://github.com/jgerber53/nfp-creighton-model-chart/blob/main/plotChart.py) to generate the chart for a single cycle.
+
+Update `file_path` as needed to the location of your data. 
+
+Update `file_name` for the date of the start of the cycle you want to plot. 
+
+Update `output_path` to specify the location for your charts.
 
 #### Merge Charts
-Run [`(2)combineCharts.ipynb`](https://github.com/mkudija/Creighton-Model-Chart/blob/master/(2)combineCharts.ipynb) to combine multiple single cycle charts into a full chart (the group of 6 cycles you are used to seeing on paper charts). Again, change paths as required to match your directory of individual charts, and update `list_im` with the individual charts you wish to include.  
+Run [`combineCharts.py`](https://github.com/mkudija/Creighton-Model-Chart/blob/master/(2)combineCharts.ipynb) to combine multiple single cycle charts into a full chart (the group of 6 cycles you are used to seeing on paper charts). Again, change paths as required to match your directory of individual charts, and update `list_im` with the individual charts you wish to include.  
