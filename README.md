@@ -95,4 +95,6 @@ Run [`combineCharts.py`](https://github.com/jgerber53/nfp-creighton-model-chart/
 
 Update `charts_path` to specify the location for your charts.
 
-Copy charts you want to combine from the `charts_path` to the `to_combine` subfolder of your charts directory.
+Copy charts you want to combine from the `charts_path` to the `combine` subfolder of your charts directory.
+
+This script will take the charts you place in the combine folder, merge them, and place the finished product in the complete folder.
