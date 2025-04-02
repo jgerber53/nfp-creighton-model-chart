@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chart Generator</title>
+</head>
+<body>
+    <h1>Chart Generator</h1>
+
+    <!-- Create a new file -->
+    <form action="/create" method="post">
+        <label>New File Name:</label>
+        <input type="text" name="filename" required>
+        <button type="submit">Create File</button>
+    </form>
+
+    <!-- Select a file to generate chart -->
+    <form action="/generate_chart" method="post">
+        <label>Select a file:</label>
+        <select name="selected_file">
+            {% for file in files %}
+                <option value="{{ file }}">{{ file }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Generate Chart</button>
+    </form>
+
+    <!-- Select multiple files to combine -->
+    <form action="/combine_charts" method="post">
+        <label>Select files to combine:</label>
+        {% for file in files %}
+            <input type="checkbox" name="selected_files" value="{{ file }}">{{ file }}<br>
+        {% endfor %}
+        <button type="submit">Combine Charts</button>
+    </form>
+</body>
+</html>

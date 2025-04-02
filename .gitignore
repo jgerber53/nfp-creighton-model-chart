@@ -1,2 +1,6 @@
 .vscode/
 notes/
+Dockerfile
+main.py
+nfp-backend
+nfp-frontend

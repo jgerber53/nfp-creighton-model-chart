@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 from PIL import Image  # Use Pillow for image handling
 
-file_name = 'example_month_1'  # Example date, replace with the name of the files you want to process
+file_name = '2025-03-22'  # Example date, replace with the name of the files you want to process
 file_path = os.path.join('/Users/gerb5/vscode-projects/nfp-creighton-model-chart/data', f'{file_name}.xlsx')
 charts_path = os.path.join('/Users/gerb5/vscode-projects/nfp-creighton-model-chart/charts', f'{file_name}.png')
 

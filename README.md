@@ -51,13 +51,15 @@ Images to form the "stickers" are located in [`/stickers`](https://github.com/jg
 Clone this repo using [`https://github.com/jgerber53/nfp-creighton-model-chart.git`](https://github.com/jgerber53/nfp-creighton-model-chart.git).
 
 #### Requirements
-This very well may run on other versions.  The below versions are what is verified.
+This very well may run on other versions.  The specified versions are verified working.
 
-- matplotlib == 3.10.1
-- pandas == 2.2.3
-- pillow == 11.1.0
-- numpy == 2.2.4
-- openpyxl == 3.1.2
+- matplotlib == 3.10.1 # For plotting charts, required for visualizations
+- pandas == 2.2.3 # For data manipulation and analysis, required for reading Excel/ODS files
+- pillow == 11.1.0 # For image processing, required by matplotlib
+- numpy == 2.2.4 # For numerical operations, required by pandas
+- openpyxl == 3.1.2 # For reading Excel files (XLSX format)
+- flask == 2.3.3  # For the web server
+- odfpy == 1.4.1  # For reading ODS files (if using ODS)
 
 #### Generate Data
 User inputs are gathered via Excel files in [`data/`](https://github.com/jgerber53/nfp-creighton-model-chart/tree/main/data). 

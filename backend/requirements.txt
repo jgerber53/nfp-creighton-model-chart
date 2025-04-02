@@ -1,0 +1,7 @@
+matplotlib == 3.10.1 # For plotting charts, required for visualizations
+pandas == 2.2.3 # For data manipulation and analysis, required for reading Excel/ODS files
+pillow == 11.1.0 # For image processing, required by matplotlib
+numpy == 2.2.4 # For numerical operations, required by pandas
+openpyxl == 3.1.2 # For reading Excel files (XLSX format)
+odfpy == 1.4.1  # For reading ODS files (if using ODS)
+flask == 2.3.3  # For the web server
